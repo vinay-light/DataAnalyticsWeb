@@ -1,0 +1,38 @@
+{
+    "httpStatusCode": 200,
+    "data": {
+        "primary": {
+            "COMPONENT_LAUNCH_EVENT": [
+                "com.android.launcher",
+                "com.hulu.plus",
+                "com.hp.hpsa"
+            ],
+            "LOG_POST_EVENT": [],
+            "DEVICE_UPTIME_EVENT": [],
+            "DEVICE_POWERDOWN_EVENT": [
+                "com.cnn.mobile.android.phone",
+                "com.Android.Afaria",
+                "com.ant.wordfind.client",
+                "com.android.contacts"
+            ],
+            "COMPONENT_USAGE_EVENT": [],
+            "COMPONENT_CLOSE_EVENT": [],
+            "BATTERY_LIFETIME_EVENT": [
+                "com.xvideostudio.videoeditor",
+                "com.camera.expert"
+            ],
+            "DEVICE_POWERUP_EVENT": []
+        },
+        "secondary": {
+            "COMPONENT_LAUNCH_COUNT": [
+                "com.google.android.calendar",
+                "com.android.chrome",
+                "com.google.android.apps.docs"
+            ],
+            "BATTERY_LIFETIME": [],
+            "TOTAL_STABILITY_UPTIME": [],
+            "TOTAL_DEVICE_UPTIME": []
+        }
+    },
+    "message": "Event details retrieved successfully"
+}

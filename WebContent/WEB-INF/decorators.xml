@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/pages/common">
+	<excludes>
+		<pattern>/*ajax=true*</pattern>
+		<pattern>/pages/login*</pattern>
+		<pattern>/landing_page/*</pattern>
+	</excludes>
+	<decorator name="fluid-theme" page="fluid-theme/fluid-theme.jsp">
+		<pattern>/pages/*.jsp</pattern>
+		<pattern>/*/user/*</pattern>
+		<pattern>/*/admin/*</pattern>
+	</decorator>
+
+</decorators>

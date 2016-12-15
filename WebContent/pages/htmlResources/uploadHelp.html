@@ -1,0 +1,55 @@
+<script>
+function drawUploadHelpForm(){
+	var strFrmHelp="";
+	strFrmHelp += "<div class=\"modal-dialog\">";
+	strFrmHelp += "    <div class=\"modal-content\">";
+	strFrmHelp += "      <div class=\"modal-header\">";
+	strFrmHelp += "        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\">&times;<\/button>";
+	strFrmHelp += "        <h4 class=\"modal-title\">"+translate("common.placeholder.uploadhelp")+"<\/h4>";
+	strFrmHelp += "      <\/div>";
+	strFrmHelp += "      <div class=\"modal-body\">";
+	strFrmHelp += "        <form id=\"frmUploadHelpFile\" method=\"post\" enctype=\"multipart/form-data\" >";
+	strFrmHelp += "        <div class=\"row\">";
+	strFrmHelp += "             <span id=\"div_error\" class=\"control-label div_error col-xs-12\"> <\/span>";
+	strFrmHelp += "        <\/div>";
+	strFrmHelp += "        <p class=\"small\">"+translate("common.placeholder.upload_help_file")+"<\/p>";
+	strFrmHelp += "		<div class=\"row rowSpace_2\">";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <label>"+translate("common.txt.help_html")+"<\/label>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <input class=\"form-control\" tabindex=\"2\" type=\"file\" name=\"helpHtml\" id=\"helpHtml\" \/>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "		<\/div>";
+	strFrmHelp += "		<div class=\"row rowSpace_2\">";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <label>"+translate("common.txt.help_files")+"<\/label>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <input class=\"form-control\" tabindex=\"2\" type=\"file\" name=\"helpFiles\" id=\"helpFiles\" \/>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "		<\/div>";
+	strFrmHelp += "		<div class=\"row rowSpace_2\">";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <label>"+translate("common.txt.help_local")+"<\/label>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "                <div class=\"col-xs-12 col-sm-61\">";
+	strFrmHelp += "                   <input type=\"hidden\" name=\"type\" value=\"help\" />";
+	strFrmHelp += "                   <select name=\"helpLanguage\">";
+	strFrmHelp += "                   		<option value=\"en_US\">English US<\/option>";
+	strFrmHelp += "                   		<option value=\"en_GB\">English UK<\/option>";
+	strFrmHelp += "                   <\/select>";
+	strFrmHelp += "                <\/div>";
+	strFrmHelp += "		<\/div>";
+	strFrmHelp += "      	<\/form>";
+	strFrmHelp += "      <\/div>";
+	strFrmHelp += "      <div class=\"modal-footer\" id=\"userUpdateFooter\">";
+	strFrmHelp += "        <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">"+translate("common.buy.cancel")+"<\/button>";
+	strFrmHelp += "        <button onClick=updateHelp(this); id=\"saveUpdateUser\" type=\"button\" class=\"btn btn-primary\">"+translate("common.placeholder.uploadhelp")+"<\/button>";
+	strFrmHelp += "      <\/div>";
+	strFrmHelp += "      ";
+	strFrmHelp += "    <\/div><!-- \/.modal-content -->";
+	strFrmHelp += " <\/div><!-- \/.modal-dialog -->";
+	$("#uploadHelpModal").prepend(strFrmHelp);
+}
+</script>

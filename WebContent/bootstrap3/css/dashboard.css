@@ -1,0 +1,301 @@
+@CHARSET "ISO-8859-1";
+/* HTML and Body and structure
+-------------------------------------------------- */
+
+p {
+    margin: 2px 10px 2px 0;
+}
+.pieChartDiv {
+border:1px solid #a1a1a1;
+padding:10px; 
+/* width:422px; */
+height:212px;
+border-radius:20px;
+margin: 25px 10px 10px;
+}
+.cancelAndProcessBtnPanelClass {
+	float: left;
+	margin-top: 25px;
+	float: right;
+	width: 325px;
+}
+
+.saveCancelBtnPanelClass {
+	float: left;
+	margin-top: 86px;
+	float: right;
+	width: 325px;
+}
+
+.saveBtnClass {
+    background-image: url("../../images/policies/add_app/default download.png");
+    display: block;
+    float: left;
+    height: 36px;
+    margin-left: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 92px;
+}
+.cancelBtnClass {
+   background-image: url("../../images/user_management/default_cancel_button.png");
+    border: medium none;
+    color: #FFFFFF;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    margin-right: 0;
+    width: 78px !important;
+}
+
+.tabsHeaderIcon {
+	color: #FFFFFF !important;
+	background-image:
+		url('../../images/user_management/seleted_tab.png');
+}
+
+p#headerNotification span:nth-child(2) {
+    color: #0096D6;
+    font-size: 20px;
+    padding-left: 16px;
+    position: relative;
+}
+
+div#div_notification{
+float: left;
+position: relative;
+border: 1px solid rgb(161, 161, 161);
+margin-top: 45px;
+border-radius: 6px;
+width: 362px;
+}
+
+.subHeaderNotificationCls .tenantDescriptionCls span:nth-child(1) {
+    float: left;
+    padding-right: 16px;
+}
+
+#div_notification img {
+    padding-left: 20px;
+    width: 20px;
+}
+
+.subHeaderNotificationCls {
+    margin-top: 9px;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+  #viewAll {
+    color: #0096D6;
+    font-weight: bold;
+    padding-top: 12px;
+    text-align: center;
+ }  
+#innerdiv_notification{
+	padding: 5px;
+	margin: 0px auto;
+	max-height: 572px;
+	min-height: 45px;
+	float: left;
+}
+
+span a {
+    color: #0088CC;
+    text-decoration: underline;
+}
+
+.chartHeader {
+	background-color: #F5F5F5; 
+	color: #5a5a5a; 
+	padding-left: 10px;
+	font-size: 18px;
+	padding-top: 0px;
+	height: 30px;
+}
+
+.chartNoRecordFound {
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.chartBox {
+	width:100%;
+	margin: 0 auto; 
+	border: 1px solid #DDDDDD; 
+	border-radius: 10px;
+}
+
+.chartBoxExtraBottomPadding {
+	margin-bottom: 30px;
+}
+
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+#dashboardSolution {
+	padding-bottom: 20px;
+}
+
+/* #dashboardSolutionRow {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+} */
+
+/* .carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; } */
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.carousel-control.left,.carousel-control.right {width:0px;}
+.solutionNameClass{ font-size: 14px; color:#5a5a5a;padding-top: 8px;}
+.thumbnailImgCarousleClass{text-align: center; margin: auto;}
+.extraWidth{ width:168px;}
+.item.extraLeftPadding.active
+	{
+	 display: block;
+	 padding-left:60px;
+	}
+.item.extraLeftPadding
+	{
+	 display: none;
+	}
+.removeLeftRightPadding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.carousel-inner > .item {
+    transition: left .5s ease-in-out .5s;
+}
+
+.chartSettingBarTop {
+	padding-top: 6px;
+}
+
+/* overlay styles, all needed */
+.graphOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+    opacity: 0.9;
+}
+
+/* just some content with arbitrary styles for explanation purposes */
+.graphModal {
+    /* height: 60%; 
+    height: 60%;*/
+    /* line-height: 200px; */
+    position: absolute;
+    top: 40%; 
+    left: 32%;
+    /* margin-top: -100px;
+    margin-left: -150px; */
+    /* background-color: #f1c40f; */
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+    width: 33%;
+}
+
+.configure {
+	background-image:
+		url('../../images/dashboard/addGraph.png');
+		height: 55px;
+		width: 55px;
+}
+
+.restore {
+	background-image:
+		url('../../images/dashboard/close_graph.png');
+		height: 55px;
+		width: 55px;
+}
+
+.graphMinHeight {
+	min-height: 222px;	
+}
+
+.nochartConfiguration {
+	left: 10%;
+}
+
+.carousel .glyphicon {
+	color:5a5a5a;
+}
+
+.graphImgCls {
+	/* height: 220px; */
+	height: 100%;
+	width: 100%;
+}
+
+.leftTopCornerRadious {
+	border-radius: 10px 0 0 0;
+}
+
+.rightTopCornerRadious {
+	border-radius: 0 10px 0 0;
+}
+
+.solutionChartBox {
+	border:1px solid #DDDDDD;
+	border-radius: 10px;
+}
+
+.adjustBox {
+	padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.solutionHeader {
+	background-color: #F5F5F5; 
+	color: #5a5a5a; 
+	padding-left: 10px;
+	font-size: 18px;
+	padding-top: 0px;
+	height: 30px;
+	border-radius: 10px 10px 0 0;
+}
+
+#myCarousel{
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.extraBottomPading {
+	padding-bottom: 3px;
+}
+
+.extraLeftPaddingForHistoryIcon {
+	margin-left: 3px;
+}
+
+.input-group-addon, .input-group-btn {
+width: 0%;
+}
+
+#noGraphPopOver {
+	cursor: default;
+}
+
+.input-group-addon {
+    cursor: default !important;
+}
+
+#deviceDetails {
+	background-color: #F5F5F5;
+    border: 0.5px solid #CCCCCC;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: 0.5;
+    position: relative;
+    width: 30%;
+    z-index: 500;
+}
